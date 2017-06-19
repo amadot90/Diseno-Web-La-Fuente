@@ -1,0 +1,51 @@
+body{
+	position: relative;
+	top: 20px;
+	bottom: 40px;
+	right: 40px;
+	left: 40px;
+	border-width: 0.5em;
+	background-image: url("../img/linuxwall.png");
+	background-size: cover;
+}
+h1{
+	color: #FFFFFF;
+}
+iframe{
+	width: 100%;
+	height: 100%;
+}
+ul{
+	list-style-type: none;
+	margin: 0px;
+	position: absolute; /*Por defecto se estaba visualizando con un padding en la izquierda*/
+	padding-left: 0;
+	width: inherit;
+	height: inherit;
+}
+#menu{
+	width: 100%;
+	height: 10%;
+}
+#cuerpo{
+	background-color: rgba(255, 255, 255, 0.5);
+	border-style: inset;
+	border-width: 0.2em;
+	width: 95%;
+	height: 95%;
+	color: #FFFFFF;
+}
+.boton{
+  font-size: 1.1em;
+  float: left;
+  background-color: #555555;
+  width: 15.9%;
+  height: 98%;
+  text-align: center;
+	/*margin: 0.1em;
+	margin-top: 0;
+	padding: 0.1em;*/
+}
+.boton:hover{
+	background-color: #0043FF;
+}
