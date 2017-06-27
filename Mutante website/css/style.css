@@ -43,9 +43,12 @@ Responsive media queries
 ***********************************/
 .header {
     background: url('../img/bg-banner03.jpg') no-repeat fixed;
-    background-size: cover;
+    /*background-size: cover;*/
     min-height: 630px;
     position: relative;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
 }
 .navbar-default {
     background-color: transparent;
@@ -55,7 +58,7 @@ Responsive media queries
 }
 .navbar-brand {
     font-size: 36px;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Allerta Stencil', cursive;
 }
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     color: #fff;
@@ -99,7 +102,7 @@ Responsive media queries
 	font-family: 'Questrial', sans-serif;
 }
 .banner-text h2 span{
-    font-family: 'Satisfy', cursive;
+    font-family: 'Allerta Stencil', cursive;
 }
 .overlay-detail{
 	margin: 0 auto;
@@ -117,13 +120,16 @@ Responsive media queries
 	border-radius: 50%;
 }
 .deco{
-	font-family: 'Satisfy', cursive;
+	font-family: 'Allerta Stencil', cursive;
 
 }
 #about{
 	background: url('../img/about-banner.jpg') no-repeat;
 	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	margin-bottom: -3px;
+	color: white;
 }
 .section-padding{
 	padding: 60px 0px;
@@ -137,9 +143,9 @@ Responsive media queries
 	border-right: 5px solid #BE2525;
 	font-size: 24px;
 }
-.about-text p{
+/*.about-text p{
 	color: #444;
-}
+}*/
 .abt-list li{
 	padding: 5px 0px;
 	font-size: 18px;
